@@ -21,9 +21,10 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Setup Android SDK licenses
+      - name: Setup Android SDK licenses & components
         run: |
           yes | sdkmanager --licenses || true
+          yes | sdkmanager "platforms;android-36" || true
 
       - name: Grant execute permission to Gradle wrapper
         run: chmod +x gradlew
