@@ -1,7 +1,7 @@
 {
-  "short_name": "FikriMoney",
-  "name": "FikriMoney — Pengelola Keuangan Pribadi",
-  "description": "Aplikasi pengelola keuangan pribadi yang mudah, intuitif, dan otomatis.",
+  "short_name": "moneyfiks",
+  "name": "moneyfiks — Pengelola Keuangan Pribadi & Portofolio",
+  "description": "Aplikasi pengelola keuangan pribadi dan aset terpadu yang mudah, intuitif, dan otomatis.",
   "icons": [
     {
       "src": "icon-192.png",
